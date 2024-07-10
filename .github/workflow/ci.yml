@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@deplay-20240710
 
     - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@deplay-20240710
+      uses: BlissfulArsenal/github-pages-deploy-action@deplay-20240710
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
